@@ -1,7 +1,6 @@
 
 3621340000597
 
-A1a-rz24zvu1pur0wwqq
 
 
 aws rds describe-db-instances
@@ -30,11 +29,6 @@ ansible-playbook playbooks/createdb.yml --extra-vars "ansible_python_interpreter
 
 Remote -- ansible-playbook  -c local --extra-vars "ansible_python_interpreter=/usr/local/bin/python" playbooks/createdb.yml
 
-
-EC2 Login:
-----------
-
-ssh munikris@dev-user-service02.sg.aws.grabpay.com
 
 RDS Password gen:
 ----------------
